@@ -5,8 +5,10 @@ Pushkan Lava Jalur Explorer :
 - Akun Vercel (Tinggal Konek Pake Github)
 
 1. Fork ni github, tulisannya sebelah kanan (https://github.com/ping-pub/explorer/)
-2. Setelah itu cari file package.json , paste ja kode ini
    
+2. Setelah itu cari file package.json , paste ja kode ini
+
+```json
 {
   "name": "ping.pub",
   "version": "3.0.0",
@@ -86,12 +88,13 @@ Pushkan Lava Jalur Explorer :
     "vue-tsc": "^1.0.12"
   }
 }
+```
 
 3. Setelah tu masuk ke folder chains/mainnet , add file baru namanya axelar.json
 
 Pastiin diakhir rpc gak ada ini "/"
 
-
+```json
 {
     "chain_name": "axelar",
     "api": [
@@ -166,9 +169,13 @@ Pastiin diakhir rpc gak ada ini "/"
         }
     ]
 }
+```
+
 4. Kalo udah masuk ke vercel.com , login pake github
-5. Add new project, ntar pilih repo github hasil fork
-6. Deploy
+   
+6. Add new project, ntar pilih repo github hasil fork
+   
+7. Deploy
 
 
 Thanks to
